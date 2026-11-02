@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="m-0 p-0 box-border">
-    
+    <!-- header start -->
 <header class="py-4 shadow-sm bg-white">
     <div class="container flex items-center justify-between m-auto">
          <!------- logo ---------->
@@ -49,7 +49,59 @@
             </div>
     </div>
 </header>
+<!------------ header end ------------------------------->
 
+<nav class="bg-gray-800">
+    <div class="container flex m-auto">
+        <!-- All categories -->
+         <div class="px-8 py-4 bg-[#FD3D57] items-center cursor-pointer relative group">
+            <span class="text-white">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <span class="text-white capitalize ml-2">All Categories</span>
+
+            <!-- Drop down -->
+          <div class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed hidden opacity-0 group-hover:opacity-100 group-hover:block transition duration-300">
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                <img src="images/icons/bed.svg" alt="bed" class="w-5 h-5 object-contain">
+                <span class="ml-6 text-gray-600 text-sm">Bedroom</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                <img src="images/icons/sofa.svg" alt="sofa" class="w-5 h-5 object-contain">
+                <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                <img src="images/icons/office.svg" alt="office" class="w-5 h-5 object-contain">
+                <span class="ml-6 text-gray-600 text-sm">Office</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                <img src="images/icons/terrace.svg" alt="terrace" class="w-5 h-5 object-contain">
+                <span class="ml-6 text-gray-600 text-sm">Outdoor</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                <img src="images/icons/bed-2.svg" alt="bed" class="w-5 h-5 object-contain">
+                <span class="ml-6 text-gray-600 text-sm">Mattress</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                <img src="images/icons/restaurant.svg" alt="restaurant" class="w-5 h-5 object-contain">
+                <span class="ml-6 text-gray-600 text-sm">Dining</span>
+            </a>
+          </div>
+            <!-- Drop down -->
+         </div>
+         
+         <!-- nav-bar-link -->
+          <div class="flex items-center justify-between grow pl-12">
+                <div class="flex items-center space-x-6 capitalize">
+                    <a href="#" class="text-gray-200 hover:text-white transition">Home</a>
+                    <a href="#" class="text-gray-200 hover:text-white transition">shop</a>
+                    <a href="#" class="text-gray-200 hover:text-white transition">about us</a>
+                    <a href="#" class="text-gray-200 hover:text-white transition">contact</a>
+                </div>
+                    <a href="#" class="text-gray-200 hover:text-white transition capitalize">login/signup</a>
+          </div>
+    </div>
+</nav>
 
 
 
